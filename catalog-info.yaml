@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: red-metrics-test
+  description: red-metrics-test
+  annotations:
+    github.com/project-slug: ingka-group-digital/red-metrics-test2
+    signalfx.com/environment: WOMGR-EU-PROD
+  links:
+    - url: https://ingka.signalfx.com/#/home
+      title: Website2
+  tags:
+    - observability
+spec:
+  type: service
+  owner: dsm-stevedores
+  system: WOMGR
+  lifecycle: production
